@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .scholarship-container { 
+     background-color: #fff;
+     display: flex; 
+     padding-bottom: 20px; 
+     flex-direction: column; 
+     overflow: hidden; }
+  
+  .header-wrapper { 
+    align-self: self-start; 
+    display: flex; 
+    width: 100%;
+    max-width: 1358px; 
+    align-items: end; 
+    gap: 40px 100px;
+    color: #000;
+    flex-wrap: wrap; }
+  
+  .logo-container { 
+     align-self: stretch;
+     display: flex; 
+     flex-direction: column;
+     font: 36px lifelogo;
+     }
+  
+  .logo { 
+    aspect-ratio: 1.85; 
+    object-fit: contain;
+    width: 124px; }
+  
+  .brand-name { 
+    text-align: center; 
+    margin: 5px auto 0; }
+  
+  .main-title { 
+    position: relative;
+    top: 0px;
+    left: 150px;
+    margin-top: 41px; 
+    flex-grow: 1;
+    width: 532px;
+    font: 40px Italianno, sans-serif;
+    border: 0px solid #000; }
+  
+  .action-buttons { 
+    display: flex;
+     margin-top: 25px; 
+     margin-right: -55px;
+     gap: 20px; 
+     text-decoration: none;
+    }
+  
+  .btn { 
+    display: flex;
+     align-items: center; 
+     justify-content: center; 
+     padding: 10px; }
+  
+  .btn-text { 
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; 
+    background-color: #3e7ae9;
+    min-height: 44px; 
+    width: 110px; color: #fff; 
+    font: 500 16px Inter, sans-serif; }
+  
+  .hero-section { 
+    position: relative;
+    min-height: 359px;
+    margin-top: 19px; 
+    width: 100%;
+    padding: 1px 0; 
+    font: 500 16px "Abhaya Libre Medium", sans-serif; }
+  
+  .hero-bg { position: absolute; inset: 0; height: 100%; width: 100%; object-fit: cover; }
+  
+  .hero-content { position: relative; background-color: rgba(24, 2, 2, 1); opacity: 50%;width: 100%; padding: 37px 80px 20px 32px; }
+  
+  .section-title { color: #fff7f7; position: relative;left: 35px;top: 15px; 800 24px "Abhaya Libre ExtraBold", sans-serif; }
+  
+  .features-list { color: #fff9f9; margin-top: 26px; }
+  
+  .process-steps { color: #fff; margin-top: 43px; }
+  
+  .info-grid { margin-top: 61px; width: 100%; max-width: 1330px; margin: 61px auto 0; }
+  
+  .grid-container { gap: 20px; display: flex; }
+  
+  .eligibility-col { width: 27%; }
+  
+  .eligibility-content { color: #000; margin-top: 13px; font: 500 24px "Abhaya Libre Medium", sans-serif; }
+  
+  .benefits-col { width: 39%; margin-left: 20px; }
+  
+  .benefits-wrapper { position: relative; min-height: 438px; padding: 188px 70px 120px; color: #000; font: 800 24px "Abhaya Libre ExtraBold", sans-serif; }
+  
+  .benefits-bg { position: absolute; inset: 0; height: 70%; width: 120%; object-fit: cover; }
+  
+  .cta-col { width: 34%; margin-left: 20px; }
+  
+  .cta-text { color: #000; margin-top: 346px; font: 800 32px "Abhaya Libre ExtraBold", sans-serif; }
+  
+  .text-heading { font-family: "Abhaya Libre ExtraBold", sans-serif; font-weight: 800; }
+  
+  .text-regular { font-size: 16px; }
+  
+  .text-medium { font-family: "Abhaya Libre Medium", sans-serif; font-weight: 500; font-size: 16px; }
+  
+  @media (max-width: 991px) {
+    .header-wrapper { max-width: 100%; margin-right: 10px; }
+    .logo-container { white-space: initial; }
+    .main-title { max-width: 100%; margin-top: 40px; font-size: 40px; }
+    .hero-section { max-width: 100%; }
+    .hero-content { padding: 0 20px; }
+    .process-steps { margin-top: 40px; }
+    .info-grid { max-width: 100%; margin-top: 40px; }
+    .grid-container { flex-direction: column; align-items: stretch; gap: 0; }
+    .eligibility-col, .benefits-col, .cta-col { width: 100%; margin-left: 0; }
+    .eligibility-content { margin-top: 40px; }
+    .benefits-wrapper { max-width: 100%; margin-top: 40px; padding: 100px 20px; }
+    .cta-text { margin-top: 40px; }
+  }
+  </style>
+  
+<body>
+  <section class="scholarship-container">
+    <header class="header-wrapper">
+      <div class="logo-container">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d664ce28863394b6641b5084987b776d9c8440f54a2fdfb460e8a8875d2f5488?placeholderIfAbsent=true&apiKey=166b89d33a924ec6b2895e9fb28bd692" alt="Hiscope Scholarship Program Logo" class="logo" />
+        <h1 class="brand-name">HISS</h1>
+      </div>
+      <h2 class="main-title">Hiscope International Student Scholarships</h2>
+      <a href="/Users/saikrishnamadiraju/Downloads/HISS/Application form.html"
+      <nav class="action-buttons">
+        <button class="btn btn-text">Apply Now</button>
+        
+      </nav></a>
+    </header>
+  
+    <section class="hero-section">
+      <img src="C:\Users\B.KIRAN\Desktop\team\download.jpg" alt="" class="hero-bg" />
+      <div class="hero-content">
+        <h3 class="section-title">Why choose Our Scholarship program?</h3>
+        <ul class="features-list">
+          <li>Guaranteed Assessment</li>
+          <li>Affordable Application fee of $10.99</li>
+          <li>Streamlined Process from Document Submission to Interviews</li>
+          <li>Scholarships for Top Universities in the U.S. and Canada</li>
+        </ul>
+        <h3 class="section-title">Steps to apply</h3>
+        <ol class="process-steps">
+          <li>Complete Your Scholarship Application</li>
+          <li>Submit Required Documents</li>
+          <li>pay the Application Fee</li>
+          <li>Take the Scholarship Test</li>
+          <li>Attend the Personal Interview</li>
+          <li>Get Sanctioned Depending on the Results</li>
+        </ol>
+      </div>
+    </section>
+  
+    <section class="info-grid">
+      <div class="grid-container">
+        <article class="eligibility-col">
+          <div class="eligibility-content">
+            <h4 class="text-heading">Eligibility Criteria</h4>
+            <ul class="text-regular">
+              <li>Must be an International Student</li>
+              <li>A Minimum GPA of 3.0</li>
+              <li>Proof of English Proficiency (e.g., TOEFL/IELTS)</li>
+              <li>Valid Passport and Academic Transcripts</li>
+            </ul>
+          </div>
+        </article>
+  
+        <article class="benefits-col">
+          <div class="benefits-wrapper">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9105494365ec94796ec0b1049d199cce0a0163d30183e34a87dae657e6d5905a?placeholderIfAbsent=true&apiKey=166b89d33a924ec6b2895e9fb28bd692" alt="" class="benefits-bg" />
+            <h4>Benefits of the Scholarship</h4>
+            <ul class="text-medium">
+              <li>Up to 50% Tuition Fee Coverage</li>
+              <li>Assistance with Visa and University Applications</li>
+              <li>Access to a Network of Successful Alumni</li>
+            </ul>
+          </div>
+        </article>
+  
+        <aside class="cta-col">
+          <h4 class="cta-text">Don't Wait! Begin Your Journey Today!</h4>
+        </aside>
+      </div>
+    </section>
+  </section>
+  
+</body>
+</html>

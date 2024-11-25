@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="scholarship-container">
+      <header class="header-wrapper">
+        <div class="logo-container has-text-centered">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d664ce28863394b6641b5084987b776d9c8440f54a2fdfb460e8a8875d2f5488?placeholderIfAbsent=true&apiKey=166b89d33a924ec6b2895e9fb28bd692"
+            alt="Hiscope Scholarship Program Logo"
+            class="logo"
+            style="max-width: 150px; margin: auto;"
+          />
+          <h1 class="brand-name title is-3">HISS</h1>
+        </div>
+        <h2 class="main-title title is-4 has-text-centered">
+          Hiscope International Student Scholarships
+        </h2>
+      </header>
+      <form
+        id="form"
+        class="box container mt-5"
+        style="max-width: 700px;"
+        method="POST"
+      >
+        <!-- Form Fields (as before) -->
+        <div class="field">
+          <label class="label">Student Name</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="text"
+              placeholder="Student Name"
+              name="Student Name"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="email"
+              placeholder="Your Email"
+              name="Email"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Phone Number</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="tel"
+              placeholder="Phone Number"
+              name="Phone Number"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-phone"></i>
+            </span>
+          </div>
+        </div>
+
+
+        <div class="field">
+          <label class="label">Date of Birth</label>
+          <div class="control">
+            <input
+              class="input is-rounded"
+              type="date"
+              placeholder="Your Date of Birth"
+              name="DOB"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Gender</label>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="Gender" value="male" /> Male
+            </label>
+            <label class="radio">
+              <input type="radio" name="Gender" value="female" /> Female
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">University Attending</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="text"
+              placeholder="University Attending"
+              name="university attending"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-school"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Course Start Date</label>
+          <div class="control">
+            <input
+              class="input is-rounded"
+              type="date"
+              placeholder="Course Start Date"
+              name="Course Start Date"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Course End Date</label>
+          <div class="control">
+            <input
+              class="input is-rounded"
+              type="date"
+              placeholder="Course End Date"
+              name="Course End Date"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Level of Education</label>
+          <div class="control">
+            <div class="select is-rounded">
+              <select name="Level of Education">
+                <option value="" disabled selected>
+                  Select your level of education
+                </option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Masters">Masters</option>
+                <option value="PhD">PhD</option>
+                <option value="Post Researches">Post Researches</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Country of Education</label>
+          <div class="control">
+            <div class="select is-rounded">
+              <select name="Country of Education">
+                <option value="" disabled selected>
+                  Select your country
+                </option>
+                <option value="United States America">United States America</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="Italy">Italy</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Canada">Canada</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="field">
+          <label class="label">Total Tution Fee</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="text"
+              placeholder="Total Tution Fee"
+              name="total tution fee"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-money-bill-wave"></i>
+            </span>
+          </div>
+        </div>
+
+
+
+        <div class="field">
+          <label class="label">GRE</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="text"
+              placeholder="GRE Score"
+              name="GRE"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-chart-line"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">IELTS</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-rounded"
+              type="text"
+              placeholder="IELTS Score"
+              name="IELTS"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-language"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Scholarship Required</label>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="Scholarship" value="Full" /> Full
+            </label>
+            <label class="radio">
+              <input type="radio" name="Scholarship" value="Partial" /> Partial
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Agree to Terms</label>
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" name="Agree To Terms" value="yes" /> I agree
+              to the terms and conditions
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Additional Information</label>
+          <div class="control">
+            <textarea
+              class="textarea is-rounded"
+              placeholder="Any additional information"
+              name="Notes"
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- More fields as in the previous HTML code -->
+        <!-- Submit and Cancel buttons -->
+
+        <div class="field is-grouped is-justify-content-center">
+          <div class="control">
+            <button id="submit-button" class="button is-primary is-rounded" type="submit">
+              Submit
+            </button>
+          </div>
+          <div class="control">
+            <button class="button is-danger is-light is-rounded" type="button">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <div
+        id="message"
+        style="
+          display: none;
+          margin: 20px;
+          font-weight: bold;
+          color: green;
+          padding: 8px;
+          background-color: beige;
+          border-radius: 4px;
+          border-color: aquamarine;
+        "
+      ></div>
+
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.getElementById("form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        document.getElementById("message").textContent = "Submitting..";
+        document.getElementById("message").style.display = "block";
+        document.getElementById("submit-button").disabled = true;
+
+        // Collect the form data
+        var formData = new FormData(this);
+        var keyValuePairs = [];
+        for (var pair of formData.entries()) {
+          keyValuePairs.push(pair[0] + "=" + pair[1]);
+        }
+
+        var formDataString = keyValuePairs.join("&");
+
+        // Send a POST request to your Google Apps Script
+        fetch(
+          "https://script.google.com/macros/s/AKfycbzdDCWwQ4sn_RKqlH03830G2Yr8CANJUsNdTZRg-XzkrqR-IT055NLuNLO1HvD4snqgTA/exec",
+          {
+            redirect: "follow",
+            method: "POST",
+            body: formDataString,
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          }
+        )
+          .then(function (response) {
+            // Check if the request was successful
+            if (response) {
+              return response; // Assuming your script returns JSON response
+            } else {
+              throw new Error("Failed to submit the form.");
+            }
+          })
+          .then(function (data) {
+            // Display a success message
+            document.getElementById("message").textContent =
+              "Data submitted successfully!";
+            document.getElementById("message").style.display = "block";
+            document.getElementById("message").style.backgroundColor = "green";
+            document.getElementById("message").style.color = "beige";
+            document.getElementById("submit-button").disabled = false;
+            document.getElementById("form").reset();
+
+            setTimeout(function () {
+              document.getElementById("message").textContent = "";
+              document.getElementById("message").style.display = "none";
+            }, 2600);
+          })
+          .catch(function (error) {
+            // Handle errors, you can display an error message here
+            console.error(error);
+            document.getElementById("message").textContent =
+              "An error occurred while submitting the form.";
+            document.getElementById("message").style.display = "block";
+          });
+      });
+    </script>
+  </body>
+</html>
